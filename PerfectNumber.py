@@ -7,6 +7,7 @@ def isPerfectNumber(number):
             sum += element
     return sum == number
 
-number = sys.argv[1]
-print("%s is perfect number ? %s" %(number,isPerfectNumber(int(number))))
-print("-------------------------------------")
+if __name__ == '__main__':
+    number = sys.argv[1]
+    print("%s is perfect number ? %s" %(number,isPerfectNumber(int(number))))
+    print("-------------------------------------")
